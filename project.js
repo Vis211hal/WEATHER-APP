@@ -1,4 +1,4 @@
-// Weather App — powered by Open-Meteo (free, no API key required)
+
 
 const cityInput = document.getElementById("city");
 const searchBtn = document.getElementById("search");
@@ -119,7 +119,7 @@ cityInput.addEventListener("keydown", (e) => {
     }
 });
 
-// Load a default city on first visit so the card isn't empty
+
 window.addEventListener("DOMContentLoaded", () => {
     cityInput.value = "London";
     handleSearch();
